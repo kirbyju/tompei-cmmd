@@ -36,7 +36,7 @@ import matplotlib.patches as patches
 @st.cache_resource
 def download_and_extract_zip():
     # URL of the zip file
-    url = "https://www.cancerimagingarchive.net/wp-content/uploads/TOMPEI-CMMD_v01_20241220.zip"
+    url = "https://www.cancerimagingarchive.net/wp-content/uploads/TOMPEI-CMMD_V01_20250125.zip"
 
     # Create a cache directory if it doesn't exist
     cache_dir = "cached_data"
